@@ -5867,6 +5867,13 @@ public final class Settings {
          * @hide
          */
         public static final String SECURE_LOCKSCREEN_QS_DISABLED = "secure_lockscreen_qs_disabled";
+        
+        /**
+         * Haptic feedback on scroll fling
+         * @hide
+         */ 
+        @Readable
+        public static final String SCROLL_FLING_HAPTIC_FEEDBACK = "scroll_fling_haptic_feedback";
 
         /**
          * reTicker Status
